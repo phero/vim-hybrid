@@ -136,7 +136,7 @@ if exists("g:hybrid_custom_term_colors") && g:hybrid_custom_term_colors == 1
 else
   let s:cterm_foreground = "250"
   let s:cterm_selection  = "237"
-  let s:cterm_line       = "235"
+  let s:cterm_line       = "233"
   let s:cterm_comment    = "243"
   let s:cterm_red        = "167"
   let s:cterm_orange     = "173"
@@ -288,7 +288,7 @@ exe "hi! ColorColumn"   .s:fg_none        .s:bg_line        .s:fmt_none
 "   Cursor"
 "   CursorIM"
 exe "hi! CursorColumn"  .s:fg_none        .s:bg_line        .s:fmt_none
-exe "hi! CursorLine"    .s:fg_none        .s:bg_line        .s:fmt_none
+exe "hi! CursorLine"    .s:fg_none        .s:bg_none        .s:fmt_none
 exe "hi! Directory"     .s:fg_blue        .s:bg_none        .s:fmt_none
 exe "hi! DiffAdd"       .s:fg_addfg       .s:bg_addbg       .s:fmt_none
 exe "hi! DiffChange"    .s:fg_changefg    .s:bg_changebg    .s:fmt_none
